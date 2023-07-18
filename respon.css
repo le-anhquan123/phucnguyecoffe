@@ -1,0 +1,94 @@
+/* Mobile */
+@media (max-width: 740px)
+{
+    #header #menu{
+        display: block;
+      /* overflow: hidden;
+         height: 35px; */
+    }
+    #menu ul {
+        display: block;
+    }
+    #menu ul li {
+        border: 0.5px solid gray;
+        background-color: oklab(0.93 0.01 -0.01 / 0.49);
+        border-radius: 10%;
+        padding: 4px;
+    }
+    .header-logo  {
+        display: none;
+    }
+    #header .item a{
+        padding: 10px;
+        outline: none;
+    }
+    /* #banner .box-left p {
+        color: color(display-p3 0.65 0.81 0.86);
+        font-size: 15px;
+        margin-top: 132%;
+    } */
+    #list-products .item .price {
+        height: 53px;
+    }
+    .list-page .item {
+        padding: 10px;
+    }
+    #saleoff .box-left span:nth-child(1){
+        font-size: 35px;
+    }
+    #saleoff .box-left span:nth-child(2){
+        font-size: 80px
+    }
+    #list-comment .item .text{
+        padding:0px;
+    }
+    #list-comment .item .name {
+        color: #68ff2c;
+    }
+    #footer {
+        display: block;
+        height: 100%;
+    }
+    #footer .box{
+        padding: 10px;
+    }
+    .box .logo{
+        margin-bottom: 10px;
+    }
+    #footer .box form input{
+        height: 40px;
+        width: 200px;
+    }
+    #list-products .productitem {
+        height: 400px;
+    }
+    .cart .listcart{
+        display: inline-block;
+    }
+    .cart .js-btn-remove {
+        /* display: none!important; */
+    }
+}
+
+/* Pc */
+@media (min-width: 1024px)
+{
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    /* #banner .box-right img{
+        width: 80%;
+    } */
+    #wp-products {
+        padding-top: 116px;
+        padding-bottom: 78px;
+        padding-left: 28px;
+        padding-right: 28px
+    }
+    #header .item a{
+      
+        outline: none;
+    }
+}
